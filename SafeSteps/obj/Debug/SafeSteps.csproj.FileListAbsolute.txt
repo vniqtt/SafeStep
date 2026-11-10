@@ -1,0 +1,11 @@
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\bin\Debug\SafeSteps.exe.config
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\bin\Debug\SafeSteps.exe
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\bin\Debug\SafeSteps.pdb
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.csproj.AssemblyReference.cache
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.Dashboard.resources
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.LoginPage.resources
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.Properties.Resources.resources
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.csproj.GenerateResource.cache
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.csproj.CoreCompileInputs.cache
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.exe
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.pdb
