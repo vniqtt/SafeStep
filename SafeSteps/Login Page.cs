@@ -16,5 +16,38 @@ namespace SafeSteps
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            bool login = loginPassIn(txtUsername.Text, txtPassword.Text);
+
+            if (login)
+            {
+                MessageBox.Show(
+                    "Welcome!",
+                    "System",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                );
+
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show(
+                    "Incorrect Password",
+                    "System",
+                     MessageBoxButtons.OK,
+                     MessageBoxIcon.Warning
+                );
+            }
+        }
+
+        bool loginPassIn(string user, string password)
+        {
+            return user == "admin" && password == "1234";
+        }
     }
 }

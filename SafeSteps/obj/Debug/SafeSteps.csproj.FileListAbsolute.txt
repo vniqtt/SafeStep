@@ -9,3 +9,21 @@ C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\
 C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.csproj.CoreCompileInputs.cache
 C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.exe
 C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.pdb
+C:\vniqtt files and folders\Fundamentals of Database Systems\Facial recognition\SafeSteps\SafeSteps\obj\Debug\SafeSteps.exe.config
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\bin\Debug\SafeSteps.exe.config
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\bin\Debug\SafeSteps.exe
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\bin\Debug\SafeSteps.pdb
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.csproj.AssemblyReference.cache
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.exe.config
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.Dashboard.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.LoginPage.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.Properties.Resources.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.Students.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.csproj.GenerateResource.cache
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.csproj.CoreCompileInputs.cache
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.exe
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.pdb
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.AddNewStudents.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.Face_Registration.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.AttendaceRecord.resources
+C:\vniqtt files and folders\SafeSteps-back up\SafeSteps\obj\Debug\SafeSteps.FaceRecognation.resources

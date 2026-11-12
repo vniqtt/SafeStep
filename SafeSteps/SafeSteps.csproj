@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +35,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,13 +52,44 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewStudents.Designer.cs">
+      <DependentUpon>AddNewStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendaceRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendaceRecord.Designer.cs">
+      <DependentUpon>AttendaceRecord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Face Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Face Registration.Designer.cs">
+      <DependentUpon>Face Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaceRecognation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaceRecognation.Designer.cs">
+      <DependentUpon>FaceRecognation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Students.Designer.cs">
+      <DependentUpon>Students.cs</DependentUpon>
     </Compile>
     <Compile Include="Login Page.cs">
       <SubType>Form</SubType>
@@ -60,8 +99,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddNewStudents.resx">
+      <DependentUpon>AddNewStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendaceRecord.resx">
+      <DependentUpon>AttendaceRecord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Face Registration.resx">
+      <DependentUpon>Face Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceRecognation.resx">
+      <DependentUpon>FaceRecognation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login Page.resx">
       <DependentUpon>Login Page.cs</DependentUpon>
@@ -76,6 +127,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Students.resx">
+      <DependentUpon>Students.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -112,6 +166,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Saint_Joseph_College_Emblem-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2026-11-11 194955.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2026-11-11 195501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2026-11-11 195531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2026-11-11 200103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-member-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saint Joseph College Entrance in Soft Light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\face scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reports-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saint Joseph College Entrance in Soft Light1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stereo Switching Button Button Green Button Vector, Button Vector, Green Vector, Vector Toggle Button PNG and Vector with Transparent Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-member-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stereo Switching Button Button Green Button Vector, Button Vector, Green Vector, Vector Toggle Button PNG and Vector with Transparent Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green buttonn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-face-id-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-face-id-60 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
